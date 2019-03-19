@@ -38,4 +38,4 @@ autoreconf -fiv
 %files
 %doc LICENSE NEWS README
 %{_bindir}/%{name}
-
+%{_mandir}/man1/lnav.1.xz
