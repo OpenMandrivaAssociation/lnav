@@ -5,7 +5,7 @@ Release:	1
 License:	BSD
 Group:		File tools
 Url:		http://lnav.org
-Source0:	http://lnav.org/downloads/%{name}-%{version}.tar.bz2
+Source0:	http://lnav.org/downloads/%{name}-%{version}.tar.gz
 BuildRequires:	bzip2-devel
 BuildRequires:	readline-devel
 BuildRequires:	pkgconfig(libpcre)
