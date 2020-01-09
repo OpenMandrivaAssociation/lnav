@@ -1,6 +1,6 @@
 Summary:	A curses-based tool for viewing and analyzing log files
 Name:		lnav
-Version:	0.8.4
+Version:	0.8.5
 Release:	1
 License:	BSD
 Group:		File tools
@@ -29,11 +29,11 @@ efficiently zero in on problems.
 
 %build
 autoreconf -fiv
-%configure2_5x --disable-static
-%make
+%configure --disable-static
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc LICENSE NEWS README
