@@ -1,6 +1,6 @@
 Summary:	A curses-based tool for viewing and analyzing log files
 Name:		lnav
-Version:	0.8.5
+Version:	0.10.1
 Release:	1
 License:	BSD
 Group:		File tools
