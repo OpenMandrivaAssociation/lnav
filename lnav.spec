@@ -10,6 +10,7 @@ BuildRequires:	bzip2-devel
 BuildRequires:	readline-devel
 BuildRequires:  openssh-server
 BuildRequires:	pkgconfig(libpcre)
+BuildRequires:	pkgconfig(libcurl)
 BuildRequires:	pkgconfig(ncursesw)
 BuildRequires:	pkgconfig(openssl)
 BuildRequires:	pkgconfig(sqlite3)
