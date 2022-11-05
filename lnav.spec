@@ -38,6 +38,6 @@ autoreconf -fiv
 %make_install
 
 %files
-%doc LICENSE NEWS README
+%doc LICENSE README*
 %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.1*
