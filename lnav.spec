@@ -9,7 +9,7 @@ Source0:	http://lnav.org/downloads/%{name}-%{version}.tar.gz
 BuildRequires:	bzip2-devel
 BuildRequires:	readline-devel
 BuildRequires:  openssh-server
-BuildRequires:	pkgconfig(libpcre)
+BuildRequires:	pkgconfig(libpcre2-8)
 BuildRequires:	pkgconfig(libcurl)
 BuildRequires:	pkgconfig(ncursesw)
 BuildRequires:	pkgconfig(openssl)
