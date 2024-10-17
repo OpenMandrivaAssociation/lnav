@@ -4,7 +4,7 @@ Version:	0.11.2
 Release:	1
 License:	BSD
 Group:		File tools
-Url:		http://lnav.org
+Url:		https://lnav.org
 Source0:	http://lnav.org/downloads/%{name}-%{version}.tar.gz
 BuildRequires:	bzip2-devel
 BuildRequires:	readline-devel
