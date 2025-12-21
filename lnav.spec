@@ -6,6 +6,11 @@ License:	BSD
 Group:		File tools
 Url:		https://lnav.org
 Source0:	http://lnav.org/downloads/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	bzip2-devel
 BuildRequires:	readline-devel
 BuildRequires:  openssh-server
